@@ -71,6 +71,17 @@ h2 {
   color: rgba(0, 0, 0, 0.2);
 }
 
+.match-logo-container-dinamic{
+  display: flex;
+  justify-content: center;
+  max-width: 200px;
+  max-height: 200px;
+}
+.match-logo-presentation-dinamic{
+  max-width: 100%;
+  max-height: 100%;
+
+}
 .logo-dinamic {
   width: 100px;
   height: 100px;
@@ -98,6 +109,19 @@ font-size: 1.5rem;
   .imgBG-teams {
       background-size: 170%;
   }
+}
+
+.team-logo-container{
+  display: flex;
+  justify-content: center;
+  height:25vh;
+  width: 100%;
+  max-height: 265px;
+}
+.team-logo-presentation{
+  max-width: 100%;
+  max-height: 100%;
+
 }
 
 .background-colored {

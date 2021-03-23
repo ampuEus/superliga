@@ -1,4 +1,7 @@
-Fecha,Equipo1,Resultado,Equipo2
-19/03/2021,Skorpion,Derrota,KRWJE X
-19/03/2021,Legend,Victoria,Sikarios Imperiales
-19/03/2021,Los titanes y sus porongas,-,Los Pixa
+Fecha,Equipo1,Logo1,Resultado,Equipo2,Logo2
+19/03/2021 21:00,Skorpion,img/LogoEquipos/Logo_Skorpion.png,Derrota,KRWJE X,img/LogoEquipos/Logo_Darkengels.png
+19/03/2021 22:00,Legend,img/LogoEquipos/Logo_Legend.jpg,Victoria,Sikarios Imperiales,img/LogoEquipos/Logo_SIIM.png
+20/03/2021 20:00,Los titanes y sus porongas,img/LogoEquipos/Logo_TitanPoronguitas.png,Derrota,Los Pixa,img/LogoEquipos/Logo_LosPixa.png
+20/03/2021 21:00,DarkEngels,img/LogoEquipos/Logo_Darkengels.png,Victoria,Team EZ,img/LogoEquipos/Logo_TeamEZ.png
+21/03/2021 19:00 ,Siim Latam,img/LogoEquipos/Logo_SIIMLATAM.png,Victoria,Nova Engels,img/LogoEquipos/Logo_EngelsOfNova.png
+21/03/2021 20:00 ,Los Palmeras,img/LogoEquipos/Logo_LasPalmera.png,Victoria,Milicias de Sko,img/LogoEquipos/Logo_MiliciasSkorpion.png

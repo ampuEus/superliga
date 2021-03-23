@@ -16,6 +16,9 @@ function generateMatch(element, data) {
     var teamName1 = element[i].getElementsByClassName("team-name-dinamic")[0];
     teamName1.textContent = data[i].Equipo1;
 
+    var teamLogo1 = element[i].getElementsByClassName("match-logo-presentation-dinamic")[0];
+    teamLogo1.srcset = data[i].Logo1;
+
     var score2 = element[i].getElementsByClassName("score-dinamic")[1];
     if (data[i].Resultado == "Victoria") {
       score2.classList.add("lost-dinamic")
@@ -28,6 +31,9 @@ function generateMatch(element, data) {
     }
     var teamName2 = element[i].getElementsByClassName("team-name-dinamic")[1];
     teamName2.textContent = data[i].Equipo2;
+
+    var teamLogo2 = element[i].getElementsByClassName("match-logo-presentation-dinamic")[1];
+    teamLogo2.srcset = data[i].Logo2;
   }
 }
 
