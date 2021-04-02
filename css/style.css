@@ -15,9 +15,18 @@ h2 {
   font-weight: 900;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+
 .navbar-logo {
     width: auto;
-    height: 60px;
+    height: 80px;
 }
 
 .scoreboard-dinamic {
@@ -82,6 +91,13 @@ h2 {
 
 .carousel-item {
     padding: 0% 5% 7%;
+}
+
+.footer-icon {
+  position: relative;
+top: -2px;
+    width: 1.8%;
+    height: 1.8%;
 }
 
 #footer {
