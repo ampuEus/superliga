@@ -15,33 +15,18 @@ h2 {
   font-weight: 900;
 }
 
-.parallax-tittle {
-  background-color: #85603f;
-  background-image: url("../img/logo-liga.png");
-  padding: 18% 1%;
-  background-repeat: no-repeat;
-  background-position: 50% 30px;
-  background-attachment: fixed;
-  background-size: 50%;
-}
-
-/* .parallax-tittle-inne{
-  padding: 30% 30%;
-} */
-.heading-section .subheading {
-  display: block;
-  margin-bottom: 0;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #999;
+.navbar-logo {
+    width: auto;
+    height: 60px;
 }
 
 .scoreboard-dinamic {
-  width: 100%;
+  /* width: 100%; */
   border: 1px solid rgba(0, 0, 0, .1);
   background: #fff;
   border-radius: 4px;
   padding: 2rem 1rem;
+  margin: 0px 10px;
 }
 
 .scoreboard-dinamic .sport-team {
@@ -51,7 +36,13 @@ h2 {
 
 .scoreboard-dinamic .sport-team .score-dinamic {
   font-weight: 550;
-  font-size: 1.8rem;
+  font-size: 2vw;
+}
+
+@media (max-width: 990px) {
+  .scoreboard-dinamic .sport-team .score-dinamic {
+    font-size: 1.8rem;
+  }
 }
 
 .scoreboard-dinamic .sport-team .team-name-dinamic {
@@ -89,64 +80,10 @@ h2 {
   /* box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09); */
 }
 
-.sidebar-box .sidebar-title{
-font-size: 1.5rem;
-}
-
 .carousel-item {
-    padding: 0% 15% 7%;
+    padding: 0% 5% 7%;
 }
 
-.imgBG-teams {
-  background-color: #85603f;
-  background-image: url("../img/impe_LegioVSEgipt.jpg");
-  background-repeat: no-repeat;
-  background-position: 50% 20%;
-  background-size: 100%;
-}
-
-@media (max-width: 995px) {
-  .imgBG-teams {
-      background-size: 170%;
-  }
-}
-
-.team-logo-container{
-  display: flex;
-  justify-content: center;
-  height:25vh;
-  width: 100%;
-  max-height: 265px;
-}
-.team-logo-presentation{
-  max-width: 100%;
-  max-height: 100%;
-
-}
-
-.background-colored {
-  background-color: #9e7540;
-}
-
-.rules-text {
-  text-align: justify;
-}
-
-.rules-img {
-  display: block;
-  margin: auto;
-  width: 100%;
-  max-width: 500px
-}
-
-.rule-list>li {
-  margin-bottom: 5px;
-}
-
-#tournament, #tournament-teams, #tournament-rules, #footer {
+#footer {
   padding: 7% 15%;
 }
-
-/* #tournament-calendar{
-      padding: 7% 0%;
-} */
