@@ -57,7 +57,9 @@ function generateCalendar(carouselItem, indicatorItem, data) {
     teamLogo2.srcset = data[i].Logo2;
 
     var btnWatch = scoreItem.getElementsByClassName("btn-ver")[0];
-    if (data[i].Ver !== "") {
+    if (data[i].Ver == "Ausencia"){
+      btnWatch.textContent = "Victoria por no comparecencia del contrario";
+    } else if (data[i].Ver !== "") {
       btnWatch.setAttribute("href", data[i].Ver);
     } else {
       btnWatch.remove();
