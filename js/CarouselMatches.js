@@ -59,7 +59,7 @@ function generateCalendar(carouselItem, indicatorItem, data) {
     var btnWatch = scoreItem.getElementsByClassName("btn-ver")[0];
     if (data[i].Ver == "Ausencia"){
       btnWatch.textContent = "Victoria por no comparecencia del contrario";
-    } else if (data[i].Ver !== "Descalificado") {
+    } else if (data[i].Ver == "Descalificado") {
       btnWatch.textContent = "Victoria por descalificación del contrario";
     } else if (data[i].Ver !== "") {
       btnWatch.setAttribute("href", data[i].Ver);
